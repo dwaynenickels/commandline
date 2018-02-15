@@ -247,7 +247,7 @@ namespace CommandLine.Text
 
             if (usageAttr.IsJust() || usageLines.IsJust())
             {
-                var heading = auto.SentenceBuilder.UsageHeadingText();
+                var heading = string.Concat(Environment.NewLine, auto.SentenceBuilder.UsageHeadingText());
                 if (heading.Length > 0)
                     auto.AddPreOptionsLine(heading);
             }
@@ -636,7 +636,7 @@ namespace CommandLine.Text
                 throw new ArgumentOutOfRangeException(nameof(value));
             }
 
-            value = value.Trim();
+            //value = value.Trim();
 
             builder.AppendWhen(builder.Length > 0, Environment.NewLine);
             do

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>commandlineparser</id>
+    <version>2.2.1</version>
+    <title>bug fix version of commandlineparser</title>
+    <authors>
+    </authors>
+    <owners>
+    </owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Temporary bug fix fork of commandlineparser.</description>
+    <releaseNotes>Fixed enum case sensitivity bug (#198) and help text formatting bug (#236).</releaseNotes>
+    <copyright>
+    </copyright>
+    <tags>commandlineparser</tags>
+  </metadata>
+</package>
